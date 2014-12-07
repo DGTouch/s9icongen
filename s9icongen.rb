@@ -43,6 +43,14 @@ sizes = [{
       scale: 3},
       {
       idiom: 'iphone app',
+      size: 57,
+      scale: 1},
+      {
+      idiom: 'iphone app',
+      size: 57,
+      scale: 2},
+      {
+      idiom: 'iphone app',
       size: 60,
       scale: 2},
       {
@@ -66,13 +74,30 @@ sizes = [{
       size: 40,
       scale: 2},
       {
+      idiom: 'ipad spotlight',
+      size: 50,
+      scale: 1},
+      {
+      idiom: 'ipad spotlight',
+      size: 50,
+      scale: 2},
+      {
+      idiom: 'ipad app',
+      size: 72,
+      scale: 1},
+      {
+      idiom: 'ipad app',
+      size: 72,
+      scale: 2}
+      {
       idiom: 'ipad app',
       size: 76,
       scale: 1},
       {
       idiom: 'ipad app',
       size: 76,
-      scale: 2}]
+      scale: 2}
+]
 
 def log(size, filename)
   s = "#{size}x#{size}"
