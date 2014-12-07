@@ -88,7 +88,7 @@ sizes = [{
       {
       idiom: 'ipad app',
       size: 72,
-      scale: 2}
+      scale: 2},
       {
       idiom: 'ipad app',
       size: 76,
